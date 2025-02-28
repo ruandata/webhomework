@@ -1,0 +1,122 @@
+body {
+  font-family: Arial, sans-serif;
+  /* body - font family */
+  font-size: 15px;
+  /* body - font size */
+  background-color: #ffffff;
+  color: #000000;
+  line-height: 1.4;
+}
+
+
+
+header {
+  background-color: rgb(190, 190, 190);
+  /* header - background color */
+  color: #ffffff;
+  text-align: center;
+}
+
+header img {
+  border: 5px solid black;
+}
+
+header h1 {
+  text-align: center;
+  /* header - text alignment */
+  font-family: 'Georgia', serif;
+  /* header - font family */
+  color: #050789;
+  /* header - color */
+  margin: 10px 0;
+}
+
+
+
+nav {
+  background-color: #89eaf9;
+  /* nav - background color */
+  margin-bottom: 10px;
+
+}
+
+nav ul {
+  padding: 0;
+  margin: 0;
+  text-align: center;
+}
+
+nav ul li {
+  display: inline-block;
+  /* li - display */
+  width: 200px;
+  /* li - width */
+}
+
+nav ul li a {
+  color: #0213ff;
+  text-decoration: underline;
+  font-weight: bold;
+}
+
+nav ul li a:hover {
+  color: rgb(102, 0, 102);
+}
+
+
+
+main {
+  background-color: rgb(255, 255, 123);
+  /* main - background color */
+  font-size: 17px;
+  /* main - font size */
+  width: 100%;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  font-family: Arial, sans-serif;
+}
+
+main p {
+  line-height: 1.4;
+  /* p - line height */
+  color: black;
+}
+
+main a {
+  color: #0300ad;
+  text-decoration: underline;
+}
+
+main a:hover {
+  color: rgb(102, 0, 102);
+}
+
+
+
+footer {
+  background-color: rgb(190, 190, 190);
+  /* footer - background color */
+  color: #000000;
+  text-align: center;
+  position: fixed;
+  width: 100%;
+}
+
+footer a {
+  color: #1003fd;
+  text-decoration: underline;
+}
+
+footer a:hover {
+  color: rgb(102, 0, 102);
+}
+
+
+
+main div {
+  display: flexbox;
+  flex-wrap: wrap;
+}
+
+main div img {
+  border-radius: 5px;
+}
